@@ -6,10 +6,10 @@ def chatbot_response(user_input, context):
     
     # Greetings
     if re.search(r"\bhello\b|\bhi\b", user_input):
-        return "Hello! I am Yasa. How can I assist you today?", context
+        return "Hello!. How can I assist you today?", context
     # Asking about the chatbot
     elif re.search(r"\bhow are you\b", user_input):
-        return "I'm just a chatbot, but I'm here to help you!", context
+        return "I'm just a chatbot. I'm here to help you!", context
     # Farewells
     elif re.search(r"\bbye\b|\bgoodbye\b", user_input):
         return "Goodbye! Have a great day!", context
